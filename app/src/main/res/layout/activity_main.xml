@@ -9,19 +9,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="输入内容，生成二维码"
-        android:text="http://baidu.com" />
+        android:text="http://www.baidu.com" />
 
     <Button
+        android:background="@color/colorAccent"
         android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="生成二维码" />
 
     <Button
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
         android:id="@+id/btn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="扫码（支持识别相册二维码）" />
+        android:text="扫码（识别相册中二维码）" />
 
     <ImageView
         android:id="@+id/image"
@@ -32,7 +35,7 @@
 
     <TextView
         android:id="@+id/tv_result"
-        android:text="扫描返回bitmap"
+        android:text="识别的二维码"
         android:gravity="center"
         android:textSize="18sp"
         android:textColor="#FF0000"
@@ -43,9 +46,8 @@
     <ImageView
         android:id="@+id/image_callback"
         android:layout_marginTop="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_gravity="center_horizontal" />
-
 
 </LinearLayout>
