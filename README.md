@@ -7,17 +7,24 @@
 在project的build.gradle添加如下代码：	
 
 	allprojects {
+	
 		repositories {
+		
 			...
+			
 			maven { url 'https://jitpack.io' }
+			
 		}
+		
 	}
 
 2. Add the dependency
 在build.gradle添加依赖：	
 
 	dependencies {
+	
 	        compile 'com.github.goodboy321:Scan-Zxing:1.0'
+		
 	}
 
 
