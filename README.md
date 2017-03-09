@@ -9,13 +9,8 @@
 	allprojects {
 	
 		repositories {
-		
-			...
-			
 			maven { url 'https://jitpack.io' }
-			
 		}
-		
 	}
 
 2. Add the dependency
@@ -24,7 +19,6 @@
 	dependencies {
 	
 	        compile 'com.github.goodboy321:Scan-Zxing:1.0'
-		
 	}
 
 
